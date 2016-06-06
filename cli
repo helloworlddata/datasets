@@ -1,0 +1,62 @@
+#!/usr/bin/env python
+
+from collections import OrderedDict
+from pathlib import Path
+from slugify import slugify_filename
+import click
+
+DATASET_PATH = Path('datasets')
+TEMPLATE_STR = """
+title: {title}
+slug: {slug}
+description: |
+    {description}
+source_links:
+    {page_type}: {page_url}"""
+
+
+def dumper(obj):
+    if obj['source_links'].get('socrata'):
+        page_type = 'socrata'
+    else:
+        page_type = 'landing_page'
+
+    return TEMPLATE_STR.format(
+            title=obj['title'].replace('"', '\\"'),
+            slug=obj['slug'],
+            description=obj['description'],
+            page_type=page_type,
+            page_url=obj['source_links'][page_type])
+
+def slugger(txt):
+    return slugify_filename(txt, separator='-', to_lower=True)
+
+
+@click.command()
+@click.argument('title')
+@click.option('--description', '-d', default="""TK TK said bob "hey", TK TK""",
+              help="Description of the dataset")
+@click.option('--landing', '-u', default="http://www.example.com/landing/TK",
+              help="The landing page of the data")
+@click.option('--socrata', help='Socrata page')
+
+def main(title, description, landing, socrata):
+    slug = slugger(title)
+    fname = DATASET_PATH.joinpath(slug + '.yaml')
+    if fname.exists():
+        raise ValueError("{0} already exists".format(str(fname)))
+    else:
+        click.echo("Creating: " + str(fname))
+        obj = OrderedDict()
+        obj['title'] = title
+        obj['slug'] = slug
+        obj['description'] = description
+        obj['source_links'] = OrderedDict()
+        if socrata:
+            obj['source_links']['socrata'] = socrata
+        else:
+            obj['source_links']['landing_page'] = landing
+        fname.write_text(dumper(obj))
+
+if __name__ == '__main__':
+    main()

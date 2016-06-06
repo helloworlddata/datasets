@@ -1,0 +1,23 @@
+title: Chicago police misconduct complaints
+locality:
+  city: Chicago
+  state: IL
+  country: United States
+
+
+source:
+  title: Invisible Institute
+  url: http://invisible.institute/
+
+  original_source:
+    title: Chicago Police Department
+
+source_links:
+  landing_page: http://invisible.institute/police-data/
+  github: https://github.com/invinst/CPDB
+
+related_links:
+  - url:  http://fivethirtyeight.com/features/how-to-predict-which-chicago-cops-will-commit-misconduct/
+    title: How To Predict Bad Cops In Chicago
+  - url: https://cpdb.co/findings
+  - url: http://invisible.institute/news/public-reactions-to-the-citizens-police-data-project

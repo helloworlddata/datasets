@@ -1,0 +1,23 @@
+
+title: FAA Wildlife Strikes
+slug: faa-wildlife-strikes
+description: |
+    TK TK said bob "hey", TK TK
+
+source:
+  title: Federal Aviation Administration
+
+locality:
+  country: US
+
+  
+source_links:
+    landing_page: http://wildlife.faa.gov/database.aspx
+    direct_downloads:
+      - title: Full dataset
+        url: http://wildlife.faa.gov/downloads/wildlife.zip
+
+related_links:
+  - url: https://gist.github.com/dannguyen/4caf05f4a27775e0a550cd0a4f3fa21f
+    title: "Using mdbtools to extract CSV data from the FAA Wildlife Strike database (.accdb, Microsoft Access)"
+    type: Code example
