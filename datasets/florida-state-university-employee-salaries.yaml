@@ -1,0 +1,7 @@
+
+title: Florida State University Employee Salaries
+slug: florida-state-university-employee-salaries
+description: |
+    Payroll information provided by Florida's 12 State Universities
+source_links:
+    landing_page: https://prod.flbog.net:4445/pls/apex/f?p=140:1:0
