@@ -1,0 +1,7 @@
+
+title: New Jersey State Independent Authorities Payroll
+slug: new-jersey-state-independent-authorities-payroll
+description: |
+    This file contains data for employees of independent authorities (NOT paid through the Centralized Payroll System). The data reflects payroll payments made to the employee for the calendar year through the date indicated. Multiple records for an employee will appear in the file for a specific year if the employee is paid by more than one authority during that calendar year
+source_links:
+    socrata: https://data.nj.gov/Governor-s-Transparency-Data/YourMoney-Authority-Payroll/kiki-imre

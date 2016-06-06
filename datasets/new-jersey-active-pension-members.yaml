@@ -1,0 +1,7 @@
+
+title: New Jersey Active Pension Members
+slug: new-jersey-active-pension-members
+description: |
+    The data file reflects data for employees who are active members in a state pension system as reported by the employer. It lists the salary eligible for pension credit for the four most recent calendar quarters reported as well as attributes that describe the status of the member for pension purposes.
+source_links:
+    socrata: https://data.nj.gov/dataset/YourMoney-Active-Pension-Members/44xg-bswk
