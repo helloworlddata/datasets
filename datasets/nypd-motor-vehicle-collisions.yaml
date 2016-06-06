@@ -1,0 +1,7 @@
+
+title: NYPD Motor Vehicle Collisions
+slug: nypd-motor-vehicle-collisions
+description: |
+    Details of Motor Vehicle Collisions in New York City provided by the Police Department.
+source_links:
+    landing_page: https://nycopendata.socrata.com/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95

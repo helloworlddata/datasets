@@ -1,0 +1,7 @@
+
+title: U.S. Hourly Precipitation Data
+slug: u.s.-hourly-precipitation-data
+description: |
+    Hourly Precipitation Data (HPD) is digital data set DSI-3240, archived at the National Climatic Data Center (NCDC). The primary source of data for this file is approximately 5,500 US National Weather Service (NWS), Federal Aviation Administration (FAA), and cooperative observer stations in the United States of America, Puerto Rico, the US Virgin Islands, and various Pacific Islands. The earliest data dates vary considerably by state and region: Maine, Pennsylvania, and Texas have data since 1900. The western Pacific region that includes Guam, American Samoa, Marshall Islands, Micronesia, and Palau have data since 1978. Other states and regions have earliest dates between those extremes. The latest data in all states and regions is from the present day. The major parameter in DSI-3240 is precipitation amounts, which are measurements of hourly or daily precipitation accumulation. Accumulation was for longer periods of time if for any reason the rain gauge was out of service or no observer was present. DSI 3240_01 contains data grouped by state; DSI 3240_02 contains data grouped by year.
+source_links:
+    landing_page: http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00313
