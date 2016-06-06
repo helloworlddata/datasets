@@ -1,0 +1,7 @@
+
+title: Iowa Public Salaries
+slug: iowa-public-salaries
+description: |
+    The dataset contains the name, gender, county or city of residence (when possible), official title, total salary received during each fiscal year, base salary for the employee, and traveling and subsistence expense reimbursed to state personnel.
+source_links:
+    socrata: https://data.iowa.gov/Government/State-of-Iowa-Salary-Book/s3p7-wy6w
