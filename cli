@@ -15,9 +15,12 @@ source_links:
     {page_type}: {page_url}"""
 
 
+
 def dumper(obj):
     if obj['source_links'].get('socrata'):
         page_type = 'socrata'
+    elif obj['source_links'].get('github'):
+        page_type = 'github'
     else:
         page_type = 'landing_page'
 
@@ -55,7 +58,10 @@ def main(title, description, landing, socrata):
         if socrata:
             obj['source_links']['socrata'] = socrata
         else:
-            obj['source_links']['landing_page'] = landing
+            if 'github.com' in landing:
+                obj['source_links']['github'] = landing
+            else:
+                obj['source_links']['landing_page'] = landing
         fname.write_text(dumper(obj))
 
 if __name__ == '__main__':

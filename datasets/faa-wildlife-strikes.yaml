@@ -2,7 +2,8 @@
 title: FAA Wildlife Strikes
 slug: faa-wildlife-strikes
 description: |
-    TK TK said bob "hey", TK TK
+    The FAA Wildlife Strike Database contains records of reported wildlife strikes since 1990. Strike reporting is voluntary. Therefore, this database only represents the information the FAA has received from airlines, airports, pilots, and other sources.
+
 
 source:
   title: Federal Aviation Administration
@@ -10,7 +11,7 @@ source:
 locality:
   country: US
 
-  
+
 source_links:
     landing_page: http://wildlife.faa.gov/database.aspx
     direct_downloads:
