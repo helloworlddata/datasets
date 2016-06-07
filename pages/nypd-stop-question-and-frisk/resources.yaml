@@ -1,0 +1,139 @@
+
+
+
+- title: Analysis of Racial Disparities in the New York Police Department's Stop, Question, and Frisk Practices
+  type: Research Paper
+  publisher: RAND Corporation
+  url: http://www.rand.org/pubs/technical_reports/TR534.html
+  image_url: images/rand-figure-3.1.png
+  description: |
+     RAND's analysis found that Hispanic and black pedestrians were stopped at a disproportionate rate but could not find conclusive evidence that it was related to systemic racial bias. The NYPD provided records for the year 2006, including a field that contained unique identifiers for officers that allowed for analysis of patterns for each officer, but that field is not part of the dataset released to the NYCLU's later FOIL request.
+  related_links:
+    - title: Rand Report Glosses Over Racial Disparities in NYPD’s Stop-and-Frisk Practices
+      publisher: New York Civil Liberties Union
+      url: http://www.nyclu.org/news/rand-report-glosses-over-racial-disparities-nypd%E2%80%99s-stop-and-frisk-practices
+
+
+- title: NYCLU v. New York City Police Department
+  type: Document
+  url: http://www.nyclu.org/case/nyclu-v-new-york-city-police-department-seeking-access-nypd-stop-and-frisk-database-under-foil
+  published_at: 2007-11-09
+  description: |
+    The NYCLU's lawsuit arguing that the NYPD must release its stop-and-frisk database in accordance to its Freedom of Information Law request.
+  image_url: images/nyclu-nypd-lawsuit.jpg
+  retrieved_at: '2016-06-06T18:10:47.739249'
+
+
+- title: "The NYPD Tapes: Inside Bed-Stuy's 81st Precinct"
+  url: http://www.villagevoice.com/news/the-nypd-tapes-inside-bed-stuys-81st-precinct-6429434
+  description: Two years ago, a police officer in a Brooklyn precinct became gravely
+    concerned about how the public was being served. To document his concerns, he began
+    carrying around a digital sound recorder, secretly recording his colleagues and
+    superiors. He recorded precinct roll calls.
+  image_url: http://images2.villagevoice.com/imager/u/original/6429426/4763974.0.jpg
+  published_at: '2010-05-04T04:00:00-04:00'
+  retrieved_at: '2016-06-06T18:32:19.659238'
+
+
+- title: New York's stop-and-frisk trial comes to a close with landmark ruling
+  url: https://www.theguardian.com/world/2013/aug/12/stop-and-frisk-landmark-ruling
+  description: Judge's decision that NYPD policy violates individuals' constitutional right to protection is result of 10-week long trial
+  image_url: https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/audio/video/2012/8/4/1344091500398/NYPD-stop-and-frisks-008.jpg?w=1200&h=632&q=55&auto=format&usm=12&fit=crop&s=e29b35dcfb896780a61fcc89a20188f1
+  published_at: '2013-08-12T18:03:00.000Z'
+  retrieved_at: '2016-06-06T18:30:05.422822'
+
+
+- title: NYCLU's Analysis of Stop-and-Frisk Data
+  type: Article
+  publisher: New York Civil Liberties Union
+  url: http://www.nyclu.org/content/stop-and-frisk-data
+  image_url: http://www.nyclu.org/themes/nyclu/images/nyclu-logo.png
+  retrieved_at: '2016-06-06T18:01:25.584433'
+  description: |
+    An analysis by the NYCLU revealed that innocent New Yorkers have been subjected to police stops and street interrogations more than 5 million times since 2002, and that black and Latino communities continue to be the overwhelming target of these tactics. Nearly nine out of 10 stopped-and-frisked New Yorkers have been completely innocent, according to the NYPD’s own reports:
+
+
+- title: For City’s Teens, Stop-and-Frisk Is Black And White
+  type: Web Application
+  url: http://www.wnyc.org/story/212460-city-teenagers-say-stop-and-frisk-all-about-race-and-class/
+  description: |
+    One in five people stopped last year by NYPD was a teenager between the ages of 14 and 18, according to a WNYC analysis of recently released police data.
+  image_url: https://media2.wnyc.org/i/1200/627/c/80/photologue/photos/SF2.jpg
+  published_at: 2012-05-29
+  retrieved_at: '2016-06-06T18:28:08.775133'
+
+
+- title: 'Stop + Frisk: Guns'
+  url: http://www.wnyc.org/story/222809-wnyc-map-police-find-guns-where-they-stop-and-frisk-less/
+  type: Web Application
+  description: |
+    WNYC map shows most guns found during NYPD stop-and-frisks last year
+    happened away from stop-and-frisk hot spots.
+  image_url: http://project.wnyc.org/stop-frisk-guns/images/stop-frisk-guns-detail.jpg
+  published_at: 2012-07-16
+  retrieved_at: '2016-06-06T18:24:46.894138'
+
+- title: The Scars of Stop-and-Frisk
+  type: Video
+  url: http://www.nytimes.com/2012/06/12/opinion/the-scars-of-stop-and-frisk.html
+  description: |
+    A short documentary film on New York’s stop-and-frisk policing focuses on Tyquan, a young man in Brooklyn who says he was stopped more than 60 times before age 18.
+  image_url: https://static01.nyt.com/images/2012/06/12/opinion/video-opdoc-stopfrisk/video-opdoc-stopfrisk-videoLarge.jpg
+  published_at: 2012-06-12
+  retrieved_at: '2016-06-06T18:18:53.742729'
+
+- title: "The Hunted and the Hated: An Inside Look at the NYPD's Stop-and-Frisk Policy"
+  type: Video
+  url: https://www.youtube.com/watch?v=7rWtDMPaRD8
+  description: |
+    A secret audio recording of a stop-and-frisk in action sheds unprecedented light on a practice that has put the city's young people of color in the NYPD's crosshairs.
+  related_links:
+    - title: How a 17-Year-Old Changed the Politics of 'Stop and Frisk'
+      url: http://www.theatlantic.com/politics/archive/2012/10/how-a-17-year-old-changed-the-politics-of-stop-and-frisk/263468/
+
+- title: ‘Stop-and-Frisk’ Is All but Gone From New York
+  type: Article
+  published_at: 2014-09-19
+  url: http://www.nytimes.com/interactive/2014/09/19/nyregion/stop-and-frisk-is-all-but-gone-from-new-york.html
+  image_url: images/nyt-stop-and-frisk-all-but-gone.png
+  description: |
+    The widespread practice of stopping residents for what was deemed “suspicious” behavior, often called “stop-and-frisk,” was the defining tactic of the New York Police Department for a decade, pursued in the face of intensifying protests and dwindling crime, has now all but vanished.
+  retrieved_at: '2016-06-06T18:05:21.151634'
+
+- title: "Precinct or Prejudice? Understanding Racial Disparities in New York City's Stop-and-Frisk Policy"
+  publisher: Annals of Applied Statistics
+  published_at: 2015-03-02
+  type: Research Paper
+  url: https://5harad.com/papers/frisky.pdf
+  description: |
+    We investigate by analyzing three million stops in New York City over five years, focusing on cases where officers suspected the stopped individual of criminal possession of a weapon...we demonstrate that by conducting only the 6% of stops that are statistically most likely to result in weapons seizure, one can both recover the majority of weapons and mitigate racial disparities in who is stopped. We show that this statistically informed stopping strategy can be approximated by simple, easily implemented heuristics with little loss in efficiency.
+
+- title: New York Police Still Struggle to Follow Street-Stop Rules, Report Finds
+  type: Article
+  url: http://www.nytimes.com/2016/02/17/nyregion/new-york-police-struggle-to-follow-new-street-stop-policy-report-finds.html
+  published_at: 2016-02-17
+  image_url: https://static01.nyt.com/images/2016/02/17/nyregion/17NYPD/17NYPD-master768.jpg
+  description: |
+    A review of hundreds of street stops by the New York Police Department last year found that in over one-quarter, officers failed to document the suspicion that prompted them to stop someone for questioning. In most instances, sergeants signed off on the stop-and-frisk paperwork even when the forms filled out by officers omitted required information.
+
+
+- title: '414: Right to Remain Silent'
+  type: Podcast
+  url: http://www.thisamericanlife.org/radio-archives/episode/414/right-to-remain-silent
+  description: Stories about people who have the right to remain silent... but choose
+    not to exercise that right—including police officer Adrian Schoolcraft, who secretly
+    recorded his supervisors telling officers to manipulate crime statistics and make
+    illegal arrests.
+  image_url: http://www.thisamericanlife.org/sites/default/files/imagecache/large_square/episodes/v414_lg.jpg
+  retrieved_at: '2016-06-06T18:41:25.576663'
+
+
+- title: New York Times Topic Page on NYPD's Stop and Frisk Policy
+  url: http://www.nytimes.com/topic/subject/stop-and-frisk-policy-new-york-city-police-department
+  type: Collection
+  publisher: New York Times
+  description: News about Stop and Frisk. Commentary and archival information about
+    Stop and Frisk from The New York Times.
+  image_url: https://static01.nyt.com/images/icons/t_logo_291_black.png
+  retrieved_at: '2016-06-06T18:23:00.622006'
+

@@ -1,0 +1,31 @@
+title: NYPD Stop, Question, and Frisk Database
+slug: nypd-stop-question-and-frisk
+description: |
+    Records of each individual stop-and-frisk incident initiated by NYPD police officers, dating back to 2003.
+
+
+characteristics:
+  estimated_record_count: 8000000
+  geospatial: Point
+  temporal: Minutes
+
+source:
+  title: New York City Police Department
+  homepage: http://www.nyc.gov/html/nypd/
+  locality:
+    country: US
+    state: NY
+    city: New York City
+
+
+synopsis: |
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod mollitia aliquam cupiditate consequatur, magni illo quibusdam dolore autem laborum fugiat odio, porro nihil illum quisquam voluptatem. Id magni sunt explicabo!
+
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, qui sit reiciendis a facilis veniam quam saepe eius enim quisquam illum. Nobis, ut ab dolore tempora illum, eos modi provident?
+
+
+source_links:
+    landing_page: http://www.nyc.gov/html/nypd/html/analysis_and_planning/stop_question_and_frisk_report.shtml
+    direct_downloads:
+
+

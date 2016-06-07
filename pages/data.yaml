@@ -1,0 +1,65 @@
+source_links:
+  - type: landing_page
+    url: http://www.nyc.gov/html/nypd/html/analysis_and_planning/stop_question_and_frisk_report.shtml
+
+
+source_downloads:
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2003_sqf_csv.zip
+    title: 2003 records
+    format: CSV
+
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2004_sqf_csv.zip
+    title: 2004 records
+    format: CSV
+
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2005_sqf_csv.zip
+    title: 2005 records
+    format: CSV
+
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2006_sqf_csv.zip
+    title: 2006 records
+    format: CSV
+
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2007_sqf_csv.zip
+    title: 2007 records
+    format: CSV
+
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2008_sqf_csv.zip
+    title: 2008 records
+    format: CSV
+
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2009_sqf_csv.zip
+    title: 2009 records
+    format: CSV
+
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2010_sqf_csv.zip
+    title: 2010 records
+    format: CSV
+
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2011_sqf_csv.zip
+    title: 2011 records
+    format: CSV
+
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2012_sqf_csv.zip
+    title: 2012 records
+    format: CSV
+
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2013_sqf_csv.zip
+    title: 2013 records
+    format: CSV
+
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2014_sqf_csv.zip
+    title: 2014 records
+    format: CSV
+
+  - url: http://www.nyc.gov/html/nypd/downloads/zip/analysis_and_planning/2015_sqf_csv.zip
+    title: 2015 records
+    format: CSV
+
+
+
+samples:
+
+
+packaged_downloads:
+
