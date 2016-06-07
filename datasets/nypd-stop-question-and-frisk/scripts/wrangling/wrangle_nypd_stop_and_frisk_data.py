@@ -30,24 +30,36 @@ NYSP1983_PROJ = pyproj.Proj(init="ESRI:102718", preserve_units=True)
 ### the main function
 
 
-DERIVED_HEADERS = [ 'datetime_stop', 'frisked', 'searched', 'arstmade', 'sumissue',
-                    'gun_found', 'other_found','was_force_used', 'forceuse_reason',
-                    'ac_ongoing_report', 'ac_miscellaneous', 'longitude', 'latitude',]
 
-STOP_REASON_HEADERS = ['cs_objcs', 'cs_descr', 'cs_casng', 'cs_lkout', 'cs_cloth',
-                       'cs_drgtr', 'cs_furtv', 'cs_vcrim', 'cs_bulge', 'cs_other',]
-
+# headers that we copy straight on over
 BOILERPLATE_HEADERS = ['race', 'age',  'sex', 'weight', 'year', 'ser_num', 'pct', 'beat', 'sector',
                         'xcoord', 'ycoord', 'addrpct', 'addrnum', 'stname', 'stinter', 'crossst',
                         'premname','arstoffn', 'sumoffen', 'crimsusp', 'detailcm',]
 
+# headers that we add or keep, though the values may end up being transformed
+DERIVED_HEADERS = ['frisked', 'searched', 'arstmade', 'sumissue', 'forceuse_reason',]
+
+# headers =
+ADDED_HEADERS = ['datetime_stop', 'gun_found', 'other_found', 'was_force_used',
+                 'ac_ongoing_report', 'ac_miscellaneous', 'longitude', 'latitude',]
+
+# these are fields which are used by police to indicate why someone was stopped
+STOP_REASON_HEADERS = ['cs_objcs', 'cs_descr', 'cs_casng', 'cs_lkout', 'cs_cloth',
+                       'cs_drgtr', 'cs_furtv', 'cs_vcrim', 'cs_bulge', 'cs_other',]
+
 # these are all consolidated under was_force_used
-FORCE_HEADERS = ['pf_hands', 'pf_wall', 'pf_grnd', 'pf_drwep', 'pf_ptwep', 'pf_baton', 'pf_hcuff', 'pf_pepsp', 'pf_other']
+USE_OF_FORCE_HEADERS = ['pf_hands', 'pf_wall', 'pf_grnd', 'pf_drwep', 'pf_ptwep', 'pf_baton', 'pf_hcuff', 'pf_pepsp', 'pf_other']
+# consolidated under: "ac_ongoing_report"
+    # - ac_inves - ADDITIONAL CIRCUMSTANCES - ONGOING INVESTIGATION
+    # - ac_rept - ADDITIONAL CIRCUMSTANCES - REPORT BY VICTIM/WITNESS/OFFICER
+AC_HEADERS_ONGOING = ['ac_inves', 'ac_rept']
 # consolidated under ac_miscellaneous
-MISC_AC_HEADERS = ['ac_assoc', 'ac_cgdir', 'ac_evasv', 'ac_incid', 'ac_other', 'ac_proxm', 'ac_stsnd', 'ac_time']
-ALL_HEADERS = DERIVED_HEADERS + STOP_REASON_HEADERS + BOILERPLATE_HEADERS
+AC_HEADERS_MISC = ['ac_assoc', 'ac_cgdir', 'ac_evasv', 'ac_incid', 'ac_other', 'ac_proxm', 'ac_stsnd', 'ac_time']
+################################
 
+FINAL_HEADERS = DERIVED_HEADERS + ADDED_HEADERS + STOP_REASON_HEADERS + BOILERPLATE_HEADERS
 
+# ALL_HEADERS = ORIGINAL_HEADERS + ADDED_HEADERS
 
 def extract_boilerplate_attrs(row):
     x = {}
@@ -67,12 +79,9 @@ def derive_weapon_found_attrs(row):
 
 def extract_additional_circumstance_attrs(row):
     # additional circumstances
-    # "ac_ongoing_report"
-    # - ac_inves - ADDITIONAL CIRCUMSTANCES - ONGOING INVESTIGATION
-    # - ac_rept - ADDITIONAL CIRCUMSTANCES - REPORT BY VICTIM/WITNESS/OFFICER
     x = {}
-    x['ac_ongoing_report'] = next((row[c] for c in ['ac_inves', 'ac_rept'] if row[c] == 'Y'), 'N')
-    x['ac_miscellaneous'] = next((row[c] for c in MISC_AC_HEADERS if row[c] == 'Y'), 'N')
+    x['ac_ongoing_report'] = next((row[c] for c in AC_HEADERS_ONGOING if row[c] == 'Y'), 'N')
+    x['ac_miscellaneous'] = next((row[c] for c in AC_HEADERS_MISC if row[c] == 'Y'), 'N')
     return x
 
 def extract_reasons_for_stop(row):
@@ -83,7 +92,7 @@ def derive_was_force_used(row):
     """
     Returns 'Y' if any of the row's values for force-related attributes is 'Y';
     otherwise, returns 'N'"""
-    return next((row[c] for c in FORCE_HEADERS if row[c] == 'Y'), 'N')
+    return next((row[c] for c in USE_OF_FORCE_HEADERS if row[c] == 'Y'), 'N')
 
 
 def derive_datetime_stop(datestop, timestop):
@@ -143,7 +152,7 @@ def wrangle_record(row):
 
 def read_and_wrangle(src, dest):
     wf = dest.open('w')
-    wcsv = csv.DictWriter(wf, fieldnames=ALL_HEADERS)
+    wcsv = csv.DictWriter(wf, fieldnames=FINAL_HEADERS)
     wcsv.writeheader()
     # only 2011.csv has windows-1252 instead of ascii encoding,
     # but we open all files as windows-1252 just to be safe
