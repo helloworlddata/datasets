@@ -1,8 +1,0 @@
-
-title: Air Carrier Market Data
-slug: air-carrier-market-data
-description: |
-    This table combines domestic and international market data reported by U.S. and foreign air carriers, and contains market data by carrier, origin and destination, and service class for enplaned passengers, freight, and mail. For a uniform end date for the combined databases, the last 3 months U.S. carrier domestic data released in T-100 Domestic Market (U.S. Carriers Only) are not included. Flights with both origin and destination in a foreign country are not included.
-
-source_links:
-    landing_page: http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=292&DB_Short_Name=Air%20Carriers

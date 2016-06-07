@@ -1,9 +1,0 @@
-
-title: NYC Registered Elevator Devices
-slug: nyc-registered-elevator-devices
-description: |
-    A list of registered elevator devices in New York City provided by the Department of Buildings in response to a September 2015 FOIL request. The data was received on a DVD in November 2015. The spreadsheet contains information on 76,088 elevators in New York City.
-
-
-source_links:
-    landing_page: https://github.com/datanews/elevators

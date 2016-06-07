@@ -1,8 +1,0 @@
-
-title: NYC Taxi Trips
-slug: nyc-green-taxi-trips
-description: |
-    This dataset includes trip records from all trips completed in green taxis, and includes fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.
-source_links:
-    landing_page: http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
-    documentation: http://www.nyc.gov/html/tlc/downloads/pdf/data_dictionary_trip_records_green.pdf

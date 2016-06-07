@@ -1,7 +1,0 @@
-
-title: Iowa Prison Population
-slug: iowa-prison-population
-description: |
-    This dataset contains de-identified individual offender data for those serving in Iowa Penitentiaries and Correctional Facilities. Dataset includes information regarding age, gender, race, years served, and offense committed. It also identifies whether the individual is serving a life sentence.
-source_links:
-    socrata: https://data.iowa.gov/Public-Safety/Iowa-Prison-Population/murf-9x69

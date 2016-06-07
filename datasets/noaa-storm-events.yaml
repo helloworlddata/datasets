@@ -1,7 +1,0 @@
-
-title: NOAA Storm Events
-slug: noaa-storm-events
-description: |
-    Extreme weather data dating back to 1950 from the National Weather Service
-source_links:
-    landing_page: http://www.ncdc.noaa.gov/stormevents/ftp.jsp

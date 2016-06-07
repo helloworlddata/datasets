@@ -1,7 +1,0 @@
-
-title: Broward County COMPAS Risk Scores and Incarceration Records
-slug: broward-county-compas-risk-scores-and-incarceration-records
-description: |
-    Criminal history, jail and prison time, demographics and COMPAS risk scores for defendants from Broward County, as requested by ProPublica in its "Machine Bias" investigation.
-source_links:
-    github: https://github.com/propublica/compas-analysis

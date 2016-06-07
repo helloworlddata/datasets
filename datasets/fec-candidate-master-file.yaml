@@ -1,8 +1,0 @@
-
-title: FEC Candidate Master File
-slug: fec-candidate-master-file
-description: |
-    This file contains one record for each candidate who has filed the FEC Form 2 for the upcoming election. In addition, this file includes candidates who have active campaign committees without regard to election year and candidates who are referenced as part of a draft committee or a nonconnected committtee that registers as supporting or opposing a particular candidate. The file contains basic information about the candidate including the candidate's identification number, candidate's name, office, election year and address.
-
-source_links:
-    landing_page: http://www.fec.gov/finance/disclosure/metadata/DataDictionaryCandidateMaster.shtml

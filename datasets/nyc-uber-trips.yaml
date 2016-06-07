@@ -1,7 +1,0 @@
-
-title: NYC Uber Trips
-slug: nyc-uber-trips
-description: |
-    4.5 million Uber pickups in New York City from April to September 2014, and 14.3 million more Uber pickups from January to June 2015. Trip-level data on 10 other for-hire vehicle (FHV) companies, as well as aggregated data for 329 FHV companies, is also included. FiveThirtyEight obtained the data via a FOIL request to the NYC Taxi & Limousine Commission.
-source_links:
-    github: https://github.com/fivethirtyeight/uber-tlc-foil-response

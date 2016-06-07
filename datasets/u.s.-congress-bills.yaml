@@ -1,9 +1,0 @@
-
-title: U.S. Congress Bills
-slug: u.s.-congress-bills
-description: |
-    Bill data is primarily collected by the bills.py scraper, which covers 1973 to the present. There are two other scrapers to cover earlier time periods.
-
-
-source_links:
-    github: https://github.com/unitedstates/congress/wiki/bills

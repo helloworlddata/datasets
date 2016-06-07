@@ -1,7 +1,0 @@
-
-title: Los Angeles 311 Requests
-slug: los-angeles-311-requests
-description: |
-    Basic 311 call tracking information including date and time of call, type of information requested, how the request was handled, and which departments were notified.
-source_links:
-    socrata: https://data.lacity.org/dataset/311-Call-Center-Tracking-Data/ukiu-8trj

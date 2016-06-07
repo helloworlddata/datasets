@@ -1,8 +1,0 @@
-
-title: Air Carrier Segment Data
-slug: air-carrier-segment-data
-description: |
-    This table combines domestic and international T-100 segment data reported by U.S. and foreign air carriers, and contains non-stop segment data by aircraft type and service class for transported passengers, freight and mail, available capacity, scheduled departures, departures performed, aircraft hours, and load factor. For a uniform end date for the combined databases, the last 3 months U.S. carrier domestic data released in T-100 Domestic Segment (U.S. Carriers Only) are not included. Flights with both origin and destination in a foreign country are not included.
-
-source_links:
-    landing_page: http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=293&DB_Short_Name=Air%20Carriers
