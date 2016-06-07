@@ -1,6 +1,4 @@
-data/
-#/data/fetched/
-#/data/wrangled/
+datasets/**/data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
