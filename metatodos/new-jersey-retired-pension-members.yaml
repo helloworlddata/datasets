@@ -1,0 +1,7 @@
+
+title: New Jersey Retired Pension Members
+slug: new-jersey-retired-pension-members
+description: |
+    This dataset contains pension benefit data for retired employees paid through a State retirement system. The data reflects year-to-date payments and the monthly allowances for each pensioner during the time period noted.
+source_links:
+    socrata: https://data.nj.gov/dataset/YourMoney-Retired-Pension-Members/nma7-ti96

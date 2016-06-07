@@ -1,0 +1,7 @@
+
+title: Miami-Dade 311 Service Requests
+slug: miami-dade-311-service-requests
+description: |
+    The following data set contains service request activity for Miami-Dade County. The data sets include services completed proactively by Miami-Dade County departments and requests submitted by citizens via phone (311), online (miamidade.gov), and other self service channels such as the 311Direct mobile application. 
+source_links:
+    socrata: https://opendata.miamidade.gov/311/311-Service-Requests-Miami-Dade-County/dj6j-qg5t

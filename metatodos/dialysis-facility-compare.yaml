@@ -1,0 +1,8 @@
+
+title: Dialysis Facility Compare
+slug: dialysis-facility-compare
+description: |
+    A list of all dialysis facilities registered with Medicare that includes addresses and phone numbers, as well as services and quality of care provided.
+
+source_links:
+    socrata: https://data.medicare.gov/Dialysis-Facility-Compare/Dialysis-Facility-Compare-Listing-by-Facility/23ew-n7w9

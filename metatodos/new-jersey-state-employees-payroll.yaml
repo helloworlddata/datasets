@@ -1,0 +1,7 @@
+
+title: New Jersey State Employees Payroll
+slug: new-jersey-state-employees-payroll
+description: |
+    This dataset contains data for State employees paid through the Centralized Payroll System. The data reflects payroll payments made to the employee for the calendar year through the date indicated.
+source_links:
+    socrata: https://data.nj.gov/Governor-s-Transparency-Data/YourMoney-Agency-Payroll/iqwc-r2w7

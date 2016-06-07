@@ -1,0 +1,8 @@
+
+title: Montgomery County, MD Traffic Violations
+slug: montgomery-county-md-traffic-violations
+description: |
+    This dataset contains traffic violation information from all electronic traffic violations issued in the County. Any information that can be used to uniquely identify the vehicle, the vehicle owner or the officer issuing the violation will not be published.
+
+source_links:
+    socrata: https://data.montgomerycountymd.gov/Public-Safety/Traffic-Violations/4mse-ku6q

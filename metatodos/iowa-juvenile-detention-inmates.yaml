@@ -1,0 +1,8 @@
+
+title: Iowa Juvenile Detention Inmates
+slug: iowa-juvenile-detention-inmates
+description: |
+    This dataset contains de-identified individual data for youth placed in a juvenile detention center in Iowa. The dataset includes information regarding age, gender, race/ethnicity, placement facility, month and year of release, and offense class and type. Please note that the Month of Release reflects the first day in the month the placement was released.
+
+source_links:
+    socrata: https://data.iowa.gov/Public-Safety/Iowa-Juvenile-Detention-Secure-Placements/3kck-gq3y

@@ -1,0 +1,47 @@
+
+title: Chicago reported incidents of crime
+description: |
+  This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. In order to protect the privacy of crime victims, addresses are shown at the block level only and specific locations are not identified.
+
+source:
+  title: Chicago Police Department
+
+locality:
+  city: Chicago
+  state: Illinois
+  country: United States
+
+
+source_links:
+  socrata: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
+
+size: 6000000
+
+geospatial:
+  fields:
+    - title: X Coordinate
+      type: x
+    - title: Y Coordinate
+      type: y
+    - title: Longitude
+      type: x
+    - title: Latitude
+      type: y
+    - title: Block
+      type: address
+      examples:
+        - 057XX W DIVERSEY AVE
+
+    - title: Location Description
+      type: description
+
+chorno:
+  fields:
+    - title: Date
+      precision: %m
+      format: %m/%d/%Y %H:%M:%S
+
+
+    - title: Updated On
+      precision: %m
+      format: %m/%d/%Y %H:%M:%S

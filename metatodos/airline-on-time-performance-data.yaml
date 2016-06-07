@@ -1,0 +1,7 @@
+
+title: Airline On-Time Performance Data
+slug: airline-on-time-performance-data
+description: |
+    This table contains on-time arrival data for non-stop domestic flights by major air carriers, and provides such additional items as departure and arrival delays, origin and destination airports, flight numbers, scheduled and actual departure and arrival times, cancelled or diverted flights, taxi-out and taxi-in times, air time, and non-stop distance.
+source_links:
+    landing_page: http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time
