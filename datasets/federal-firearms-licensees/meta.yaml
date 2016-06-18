@@ -1,0 +1,30 @@
+
+title: Federal Firearms Licensees
+slug: federal-firearms-licensees
+description: |
+    TK TK said bob "hey", TK TK
+source_links:
+    landing_page: https://www.atf.gov/firearms/<listing></listing>-federal-firearms-licensees-ffls-2016
+
+related_links:
+  - slug: firearms-dealers-vs-burgers-pizza-and-coffee-flowingdata-com
+    fetched_at: 2016-06-18 09:10:47.943802
+    url: http://flowingdata.com/2016/06/14/firearms-dealers-vs-burgers-pizza-and-coffee/
+    title: "Firearms Dealers vs. Burgers, Pizza, and Coffee"
+    description: |
+      There are an awful lot of places to buy a gun. As of May 2016, there were 64,432 licensed firearms dealers and pawnbrokers, according to the ATF, which got me wondering how that compares to other businesses.
+    published_at: 2016-06-14
+    authors:
+      - Nathan Yau
+    word_count: 291
+
+
+notes: |
+  *There is no data available for October due to the government shutdown.
+
+ideas:
+  - shops per capita by zip code
+  - state with most change in shops
+  - counties with new shops
+
+
