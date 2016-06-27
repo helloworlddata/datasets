@@ -1,0 +1,12 @@
+
+title: Supreme Court Database
+slug: supreme-court-database
+description: |
+    The Supreme Court Database is the definitive source for researchers, students, journalists, and citizens interested in the U.S. Supreme Court. The Database contains over two hundred pieces of information about each case decided by the Court between the 1791 and 2014 terms. Examples include the identity of the court whose decision the Supreme Court reviewed, the parties to the suit, the legal provisions considered in the case, and the votes of the Justices.
+source_links:
+    landing_page: http://supremecourtdatabase.org/
+
+ideas:
+  - Scatterplot of the votes
+  - Count of unanimous vs divided
+  - Rare pairings
